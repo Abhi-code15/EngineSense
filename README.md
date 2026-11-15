@@ -319,11 +319,11 @@ EngineSense/
 
 ## Engineering Provenance, Attribution & License
 
-EngineSense was engineered and architected by **[Abhishek Tiwari](https://github.com/Abhi-code15)** as an advanced production system. It incorporates and re-engineers the foundational telemetry dataset and baseline model from the 2025 coursework project by **Abhishek Tripathi** ([upstream repository](https://github.com/Abhishektripathi/engine-predictive-maintenance)).
+EngineSense was engineered and architected by **[Abhishek Tiwari](https://github.com/Abhi-code15)** as an advanced production system. It incorporates and re-engineers the foundational telemetry dataset and baseline model from the 2025 coursework.
 
 ### Engineering Contributions Matrix
 
-| System Component | Baseline Reference (Abhishek Tripathi, 2025) | EngineSense Production Architecture (Abhishek Tiwari, 2026) |
+| System Component | Baseline Reference  | EngineSense Production Architecture (Abhishek Tiwari, 2026) |
 | :--- | :--- | :--- |
 | **Pipeline Architecture** | Standalone script; global preprocessing | Scikit-Learn `Pipeline` with intra-fold median imputation (zero leakage) |
 | **Production Model** | Baseline Random Forest (`models/best_model.joblib`) | Promoted LightGBM (`subsample_freq=1` bug resolved; 48.6% fewer missed faults) |
