@@ -1,0 +1,7 @@
+experiment,model_name,mean_cv_f1,std_cv_f1,val_f1,val_precision,val_recall,val_balanced_accuracy,val_specificity,val_roc_auc,val_pr_auc,train_time_sec,artifact_path
+Phase 7 Baseline,Random Forest,0.7648,0.0059,0.7649,0.6964,0.8483,0.6086,0.3688,0.6988,0.7887,929.66,models\experiments\random_forest_v2.joblib
+Phase 7 Baseline,XGBoost,0.7651,0.0046,0.7651,0.6954,0.8503,0.6074,0.3645,0.7016,0.7925,36.18,models\experiments\xgboost_model.joblib
+Phase 7 Baseline,LightGBM,0.7769,0.0036,0.7792,0.6601,0.9508,0.5576,0.1645,0.6957,0.7887,22.95,models\experiments\lightgbm_model.joblib
+Exp 2: Subsampling Corrected,LightGBM (Subsampling Corrected),0.7778,0.0046,0.7813,0.6601,0.9569,0.5581,0.1593,0.6983,0.7911,25.8,models\experiments\lightgbm_subsampled.joblib
+Exp 3: Feature Engineering,LightGBM + Engineered Features,0.7756,0.0061,0.7773,0.6674,0.9305,0.5696,0.2087,0.6969,0.7887,31.67,models\experiments\lightgbm_engineered.joblib
+Exp 3: Feature Engineering,XGBoost + Engineered Features,0.7654,0.0069,0.7606,0.6928,0.8432,0.6026,0.3619,0.6984,0.791,50.67,models\experiments\xgboost_engineered.joblib

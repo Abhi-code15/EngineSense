@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & local secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Streamlit local settings & secrets
+.streamlit/secrets.toml
+
+# MLflow run artifacts
+mlruns/
+.mlflow/
+
+# IDE & Editor caches
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log outputs & temporary scratch files
+*.log
+*.out
+*.tmp
+*.bak
+*.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
