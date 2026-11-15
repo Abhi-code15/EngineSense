@@ -333,5 +333,4 @@ EngineSense was engineered and architected by **[Abhishek Tiwari](https://github
 | **Documentation** | Single coursework README & guides | Modular architecture guide, data dictionary, model card, and evaluation report |
 
 ### License & Attribution
-- **Software License**: Released under the [MIT License](LICENSE) (Copyright © 2025 Abhishek Tripathi).
 - **Dataset Attribution**: PARV MODI, *Automotive Vehicles Engine Health Dataset*, Kaggle (CC0: Public Domain).
